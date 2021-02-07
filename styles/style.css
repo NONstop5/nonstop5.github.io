@@ -100,8 +100,8 @@ h2 {
     color: #ffffff
 }
 
-.header-top__search .search-input {
-    padding: 10px 15px;
+.header-top__search .search-button {
+    padding: 10px 15px 9px 17px;
     background-color: transparent;
     border: 1px solid #ffffff;
 }
