@@ -177,7 +177,7 @@ h2 {
     text-decoration: none;
 }
 
-.about-us {
+.about-us .container {
     display: flex;
 }
 
@@ -351,16 +351,15 @@ h2 {
     font-weight: 300;
 }
 
-.slider__text-signature {
-    text-align: center;
-    font-weight: bold;
-}
-
 .slider__text {
     color: #ffffff;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
     margin: 0 80px;
+}
+
+.slider__text-signature {
+    text-align: center;
 }
 
 .news-events .container {
