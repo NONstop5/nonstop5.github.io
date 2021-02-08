@@ -361,10 +361,58 @@ h2 {
     text-align: center;
 }
 
-.news-events .container {
+.our-team {
+    height: 706px;
+    background-color: #f7f7f7;
+    padding-top: 98px;
+    padding-bottom: 79px;
+}
+
+.our-team .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.our-team__title {
+    margin-bottom: 61px;
+}
+
+.our-team__person-list {
+    display: flex;
+}
+
+.our-team__person:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-team__person-photo {
+    margin-bottom: 27px;
+}
+
+.our-team__person-name {
+    margin-bottom: 5px;
+    color: #f44336;
+    font-family: Poppins, serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.our-team__person-position {
+    margin-bottom: 17px;
+    color: #838383;
+    font-family: Roboto, serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.our-team__person-social-list {
+    display: flex;
+}
+
+.our-team__person-social-item:not(:last-child) {
+    margin-right: 17px;
 }
 
 .footer {
