@@ -362,7 +362,6 @@ h2 {
 }
 
 .our-team {
-    height: 706px;
     background-color: #f7f7f7;
     padding-top: 98px;
     padding-bottom: 79px;
@@ -413,6 +412,51 @@ h2 {
 
 .our-team__person-social-item:not(:last-child) {
     margin-right: 17px;
+}
+
+.subscribe {
+    background: url("../img/subscribe_background.png") no-repeat;
+    height: 313px;
+    margin-bottom: 97px;
+    padding-top: 86px;
+}
+
+.subscribe .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe__text {
+    color: #ffffff;
+    font-family: Poppins, serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 53px;
+}
+
+.subscribe #subscribe__input {
+    width: 439px;
+    background-color: #ffffff;
+    padding: 22px 30px;
+    border: none;
+    outline: none;
+}
+
+.subscribe .subscribe__button {
+    padding: 21px 33px;
+    color: #ffffff;
+    background-color: #f44336;
+    border: none;
+    outline: none;
+}
+
+.subscribe #subscribe__input:focus {
+    outline: 1px solid #f44336;
+}
+.subscribe .subscribe__button:focus {
+    outline: 1px solid #ffffff;
 }
 
 .footer {
