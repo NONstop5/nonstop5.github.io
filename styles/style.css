@@ -250,8 +250,7 @@ h2 {
     margin-bottom: 18px;
 }
 
-.services__items_left .services__text-title.active,
-.services__items_right .services__text-title.active {
+.services__items .services__text-title.active {
     color: #f44336;
 }
 
