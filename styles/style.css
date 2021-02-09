@@ -39,6 +39,7 @@ h2 {
 
 .header {
     background: url("../img/main-image.png") no-repeat;
+    background-size: cover;
     height: 725px;
     margin-bottom: 81px;
 }
@@ -326,6 +327,7 @@ h2 {
 .slider {
     height: 452px;
     background: url("../img/slider-image.jpg") no-repeat;
+    background-size: cover;
     padding-top: 85px ;
     padding-bottom: 98px;
 }
@@ -416,6 +418,7 @@ h2 {
 
 .subscribe {
     background: url("../img/subscribe_background.png") no-repeat;
+    background-size: cover;
     height: 313px;
     margin-bottom: 97px;
 }
