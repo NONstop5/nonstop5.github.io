@@ -418,7 +418,6 @@ h2 {
     background: url("../img/subscribe_background.png") no-repeat;
     height: 313px;
     margin-bottom: 97px;
-    padding-top: 86px;
 }
 
 .subscribe .container {
@@ -455,8 +454,84 @@ h2 {
 .subscribe #subscribe__input:focus {
     outline: 1px solid #f44336;
 }
+
 .subscribe .subscribe__button:focus {
     outline: 1px solid #ffffff;
+}
+
+.contact-us {
+    margin-bottom: 96px;
+}
+
+.contact-us .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us__title {
+    margin-bottom: 89px;
+}
+
+.contact-us__content {
+    display: flex;
+}
+
+.contact-us__text-block-title {
+    color: #f44336;
+    font-family: "Roboto Condensed", serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 23px;
+    margin-bottom: 18px;
+}
+
+.contact-us__text {
+    color: #9e9e9e;
+    font-family: "Roboto Condensed", serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.contact-us__email {
+    color: #f44336;
+}
+
+#contact-us__input-name,
+#contact-us__input-email,
+#contact-us__input-message {
+    width: 470px;
+    margin-bottom: 21px;
+    padding: 15px 16px 17px 16px;
+    border: 1px solid #999999;
+}
+
+#contact-us__input-message {
+    height: 138px;
+    margin-bottom: 19px;
+}
+
+.contact-us__submit {
+    padding: 15px 50px 15px 46px;
+    background-color: #f44336;
+    border: none;
+    outline: none;
+    color: #ffffff;
+}
+
+.contact-us__submit:focus {
+    outline: 1px solid #999999;
+}
+
+.contact-us__submit:focus {
+    outline: 1px solid #999999;
+}
+
+.map .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer {
